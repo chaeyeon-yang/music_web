@@ -1,13 +1,12 @@
-import styles from "./Search.module.css";
-
+import styles from "../stylesheets/Search.module.css";
+import { faSearch } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 function Search() {
     return (
         <div className={styles.search}>
             <div className={styles.search__column}>
                 <input placeholder="What are you looking for?..."></input>
-            </div>
-            <div className={styles.search__column}>
-                <i class="fas fa-search"></i>
+                <FontAwesomeIcon icon={faSearch} />
             </div>
         </div>
     );

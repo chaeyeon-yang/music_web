@@ -1,0 +1,13 @@
+.search__column {
+    display: flex;
+    justify-content: center;
+}
+.search__column input {
+    width: 80%;
+    padding: 5px;
+    border-radius: 10px;
+}
+.search__column icon {
+    display: flex;
+    justify-content: center;
+}
